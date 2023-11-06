@@ -32,7 +32,7 @@ const RegisterScreen = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8000/signup",
+        "https://pizza-dnwu.onrender.com/signup",
         {
           ...inputValue,
         },

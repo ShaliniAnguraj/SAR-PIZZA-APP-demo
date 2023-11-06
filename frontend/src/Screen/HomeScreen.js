@@ -14,7 +14,7 @@ const HomeScreen = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:8000",
+        "https://pizza-dnwu.onrender.com",
         {},
         { withCredentials: true }
       );

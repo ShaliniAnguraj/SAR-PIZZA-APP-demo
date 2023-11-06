@@ -31,7 +31,7 @@ const LoginScreen = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8000/login",
+        "https://pizza-dnwu.onrender.com/login",
         {
           ...inputValue,
         },
